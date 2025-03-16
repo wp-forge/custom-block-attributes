@@ -67,8 +67,8 @@ function custom_block_attributes_render( $content, $block ) {
 			}
 		}
 
-		// Wrap the block content with custom attributes
-		$content = preg_replace( '/<([^ ]+)(.*?)(\/?)>/', '<$1$2' . $attributes . '$3>', $content );
+		// Only modify the first opening HTML tag to add attributes to the main container
+		$content = preg_replace( '/^<([^ >]+)([^>]*)>/', '<$1$2' . $attributes . '>', $content, 1 );
 	}
 
 	return $content;
