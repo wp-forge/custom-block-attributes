@@ -79,7 +79,10 @@ The plugin is lightweight and only loads in the admin when editing posts or page
 
 ## Changelog
 
-### 1.0
+### 1.0.1
+- Fix bug where attributes were applied to all child elements as well
+
+### 1.0.0
 - Initial release
 
 ## Credits

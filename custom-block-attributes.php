@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Custom Block Attributes
  * Description: Allow users to add custom HTML attributes to blocks in the Block Editor.
- * Version: 1.0
+ * Version: 1.0.1
  * Author: Micah Wood
  * Author URI: https://micahwood.me
  * Requires at least: 6.7
@@ -18,7 +18,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly
 }
 
-define( 'CUSTOM_BLOCK_ATTRIBUTES_VERSION', '1.0' );
+define( 'CUSTOM_BLOCK_ATTRIBUTES_VERSION', '1.0.1' );
 
 /**
  * Enqueue the script for the block editor.
