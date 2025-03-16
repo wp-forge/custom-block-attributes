@@ -1,0 +1,15 @@
+{
+  "name": "wp-forge/custom-block-attributes",
+  "description": "Allow users to add custom HTML attributes to blocks in the Block Editor.",
+  "type": "wordpress-plugin",
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "Micah Wood",
+      "homepage": "https://micahwood.me"
+    }
+  ],
+  "require": {
+    "php": ">=7.4"
+  }
+}
